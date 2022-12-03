@@ -1,5 +1,6 @@
 ﻿using DapperGRP.Domain.CustomException;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace DapperGRP.Domain.Entities
 {
@@ -10,10 +11,11 @@ namespace DapperGRP.Domain.Entities
         public string Description { get;  private set; }
         public decimal Price { get;  private set; }
 
+        [JsonConstructor]
         public Product(string name, string description, decimal price)
            => validateProperties(name, description, price);
 
-        public Product(Guid id, string name, string description, decimal price) : base(id)
+        public Product(string id, string name, string description, decimal price) : base(id)
            => validateProperties(name, description, price);
 
         public void Update(string name, string description, decimal price)
