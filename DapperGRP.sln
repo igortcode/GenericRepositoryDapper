@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperGRP.Domain", "src\Dap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperGRP.Domain.Test", "src\DapperGRP.Domain.Test\DapperGRP.Domain.Test.csproj", "{3FF6920C-4DBE-4477-BBED-98995B532335}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperGRP.Repository", "src\DapperGRP.Repository\DapperGRP.Repository.csproj", "{71AF6B3D-335E-48C9-A17A-CBE26DF7D3EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperGRP.Repository", "src\DapperGRP.Repository\DapperGRP.Repository.csproj", "{71AF6B3D-335E-48C9-A17A-CBE26DF7D3EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperGRP.Api", "src\DapperGRP.Api\DapperGRP.Api.csproj", "{D8A413B7-D046-413B-AE35-D0C60D47AA17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{71AF6B3D-335E-48C9-A17A-CBE26DF7D3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71AF6B3D-335E-48C9-A17A-CBE26DF7D3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71AF6B3D-335E-48C9-A17A-CBE26DF7D3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8A413B7-D046-413B-AE35-D0C60D47AA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8A413B7-D046-413B-AE35-D0C60D47AA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8A413B7-D046-413B-AE35-D0C60D47AA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8A413B7-D046-413B-AE35-D0C60D47AA17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
