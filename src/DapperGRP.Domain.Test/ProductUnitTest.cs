@@ -8,7 +8,7 @@ namespace DapperGRP.Domain.Test
         [Fact(DisplayName = "Create a Product With Valid State Using Full Constructor")]
         public void CreateProduct_ValidParameters_ResultObjectValidState_FullConstructor()
         {
-            Action action = () => new Product(Guid.NewGuid(), "Product Name", "Product Description", 9.99m);
+            Action action = () => new Product(Guid.NewGuid().ToString(), "Product Name", "Product Description", 9.99m);
 
             action.Should()
                 .NotThrow<CustomException.DomainValidateException>();

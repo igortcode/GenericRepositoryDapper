@@ -4,9 +4,9 @@ namespace DapperGRP.Domain.Entities
 {
     public abstract class Entity
     {
-        [ExplicitKey]
-        protected Guid Id { get; set; }
-        public Entity() => Id = Guid.NewGuid();
-        public Entity(Guid id) => Id = id;
+        [Key]
+        public string Id { get; protected set; }
+        public Entity() => Id = Guid.NewGuid().ToString();
+        public Entity(string id) => Id = id;
     }
 }
