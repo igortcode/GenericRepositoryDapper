@@ -1,7 +1,9 @@
 ﻿using DapperGRP.Domain.CustomException;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DapperGRP.Domain.Entities
 {
+    [Table("product")]
     public class Product : Entity
     {
         public string Name { get; private set; }

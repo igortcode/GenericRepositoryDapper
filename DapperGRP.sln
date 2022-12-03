@@ -5,7 +5,9 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperGRP.Domain", "src\DapperGRP.Domain\DapperGRP.Domain.csproj", "{D63E613D-7FEC-412A-B2A8-8A63F9757BC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperGRP.Domain.Test", "src\DapperGRP.Domain.Test\DapperGRP.Domain.Test.csproj", "{3FF6920C-4DBE-4477-BBED-98995B532335}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperGRP.Domain.Test", "src\DapperGRP.Domain.Test\DapperGRP.Domain.Test.csproj", "{3FF6920C-4DBE-4477-BBED-98995B532335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperGRP.Repository", "src\DapperGRP.Repository\DapperGRP.Repository.csproj", "{71AF6B3D-335E-48C9-A17A-CBE26DF7D3EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{3FF6920C-4DBE-4477-BBED-98995B532335}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FF6920C-4DBE-4477-BBED-98995B532335}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3FF6920C-4DBE-4477-BBED-98995B532335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71AF6B3D-335E-48C9-A17A-CBE26DF7D3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71AF6B3D-335E-48C9-A17A-CBE26DF7D3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71AF6B3D-335E-48C9-A17A-CBE26DF7D3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71AF6B3D-335E-48C9-A17A-CBE26DF7D3EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
