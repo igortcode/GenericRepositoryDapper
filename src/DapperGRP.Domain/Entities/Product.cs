@@ -19,11 +19,11 @@ namespace DapperGRP.Domain.Entities
 
         private void validateProperties(string name, string description, decimal price)
         {
-            DomainValidateException.When(string.IsNullOrEmpty(name), "Name is inválid. Name is required.");
+            DomainValidateException.When(string.IsNullOrEmpty(name), "Name is invalid. Name is required.");
             DomainValidateException.When(name.Length <= 2, "Name is invalid. Too short, minimun 3 characters.");
             DomainValidateException.When(name.Length > 100, "Name is invalid. Too long, maximun 100 characters.");
 
-            DomainValidateException.When(string.IsNullOrEmpty(description), "Name is inválid. Name is required.");
+            DomainValidateException.When(string.IsNullOrEmpty(description), "Description is invalid. Description is required.");
             DomainValidateException.When(description.Length <= 5, "Description is invalid. Too short, minimun 5 characters.");
             DomainValidateException.When(description.Length > 300, "Description is invalid. Too long, maximun 300 characters.");
 
